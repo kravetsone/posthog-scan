@@ -24,8 +24,8 @@ it will look like this:
 
 ### test
 
--   `email`: `undefined | string`
--   `test`: `undefined | number`
+-   `email` — `undefined | "test@test.com"`
+-   `test` — `undefined | number`
 ```
 
 > [!IMPORTANT]
