@@ -3,7 +3,12 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@types/bun": "latest",
+    "posthog-node": "^4.3.2",
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ts-morph": "^25.0.0"
   }
 }
