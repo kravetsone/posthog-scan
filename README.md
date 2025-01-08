@@ -1,5 +1,8 @@
 # posthog-scan
 
+[![npm](https://img.shields.io/npm/v/posthog-scan?logo=npm&style=flat&labelColor=000&color=3b82f6)](https://www.npmjs.org/package/posthog-scan)
+[![npm downloads](https://img.shields.io/npm/dw/posthog-scan?logo=npm&style=flat&labelColor=000&color=3b82f6)](https://www.npmjs.org/package/posthog-scan)
+
 Scan your code for PostHog events (`posthog.capture` calls) and generate a markdown file with the events and their properties.
 
 ## Usage
