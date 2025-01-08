@@ -175,3 +175,4 @@ dist
 .DS_Store
 
 src/src
+posthog.md

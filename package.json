@@ -1,14 +1,32 @@
 {
-  "name": "posthog-scan",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@types/bun": "latest",
-    "posthog-node": "^4.3.2",
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "ts-morph": "^25.0.0"
-  }
+    "name": "posthog-scan",
+    "homepage": "https://github.com/kravetsone/posthog-scan",
+    "readme": "https://github.com/kravetsone/posthog-scan",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kravetsone/posthog-scan.git"
+    },
+    "author": {
+        "url": "https://github.com/kravetsone",
+        "name": "kravets"
+    },
+    "bin": {
+        "posthog-scan": "./dist/index.js"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@biomejs/biome": "^1.9.4",
+        "@types/bun": "latest",
+        "pkgroll": "^2.6.1",
+        "posthog-node": "^4.3.2",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "ts-morph": "^25.0.0"
+    },
+    "scripts": {
+        "prepublishOnly": "bunx pkgroll"
+    },
+    "files": ["dist"],
+    "license": "MIT"
 }
