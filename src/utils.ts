@@ -20,10 +20,11 @@ export function resolveOriginalTypeText(
             .map((type) => resolveOriginalTypeText(type, typeChecker))
             .join(" & ");
     }
-    if (type.isLiteral()) {
-        // Resolve literal types (e.g., "value" -> string)
-        return typeChecker.getBaseTypeOfLiteralType(type).getText();
-    }
+    // if (type.isLiteral()) {
+
+    //     // Resolve literal types (e.g., "value" -> string)
+    //     return typeChecker.getBaseTypeOfLiteralType(type).getText();
+    // }
     const aliasSymbol = type.getAliasSymbol();
 
     if (aliasSymbol) {

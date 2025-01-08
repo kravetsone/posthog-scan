@@ -16,8 +16,6 @@ const typeChecker = project.getTypeChecker();
 
 const events = extractEventsFromSourceFiles(sourceFiles, typeChecker);
 
-console.log(events);
-
 let md = "";
 
 md += "## Events\n\n";
