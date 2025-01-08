@@ -1,0 +1,9 @@
+{
+  "name": "posthog-scan",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  }
+}
