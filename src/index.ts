@@ -24,14 +24,14 @@ for (const event of events) {
     md += `- [${event.event}](#${event.event})\n`;
 }
 
+md += "\n";
+
 for (const event of events) {
     md += `\n### ${event.event}\n\n`;
 
     for (const property of event.properties) {
         md += `- \`${property.name}\` — \`${property.type}\`\n`;
     }
-
-    md += "\n\n";
 }
 
 writeFileSync("posthog.md", md);
